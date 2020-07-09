@@ -1,10 +1,10 @@
 import React from "react"
-import Layout from "../components/layout"
+import { Layout } from "~components"
 
-export default function Home() {
-  return (
-    <Layout>
-      <h1>Racer Inc</h1>
-    </Layout>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <h1>Racer Inc</h1>
+  </Layout>
+)
+
+export default IndexPage
